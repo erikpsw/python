@@ -1,4 +1,4 @@
-datanames ='G:\programing\\vs\C++'
+datanames ='C:\\Users\\Shiwei Pan\\source\\repos'
 import os
 import shutil
 i=1
@@ -16,7 +16,5 @@ for root, dirs, files in os.walk(datanames, topdown=False):
 print(List)
 print(Name)
 for i in range(len(List)):
-    shutil.move(List[i], despath+Name[i])
-
-
+    shutil.copyfile(List[i], despath+Name[i])
 
