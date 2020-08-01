@@ -2,7 +2,7 @@ datanames ='C:\\Users\\Shiwei Pan\\source\\repos'
 import os
 import shutil
 i=1
-despath='C:\\mine\\mine\\c++\\'
+despath='C:\mine\mine\python\computational geometry\\'
 List=[]
 Name=[]
 for root, dirs, files in os.walk(datanames, topdown=False):
