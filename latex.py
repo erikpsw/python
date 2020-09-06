@@ -2,13 +2,12 @@ text=r'''
 
 
 
-\left. { 4 y = 2 t x - t ^ { 2 } } \\ { t ^ { 2 } - 2 t x + 4 y = 0 } \\ { F ( x , y , t ) = t ^ { 2 } - 2 t x + 4 y }  \right.
+\left. { A B ^ { 2 } + B C ^ { 2 } - 2 A B \cdot B C \cos \theta = A C ^ { 2 } } \\ { A B ^ { 2 } + A ( B C ) ^ { 2 } - 2 A B \cdot B C \cos ( \pi - \theta ) = B B ^ { 2 } } \\ { 2 ( A B ^ { 2 } + B C ^ { 2 } ) : A _ { c } ^ { 2 } + B D ^ { 2 } } \right.
 
 
 
 '''
 text=text.replace('\n', '').replace('\r', '')#去除最前面换行
-text=text.replace(' ','')#去除空格
 print(text)
 arr=text.split(r"\\")
 print(arr)
