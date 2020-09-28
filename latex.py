@@ -2,7 +2,8 @@ text=r'''
 
 
 
-\left. { A B ^ { 2 } + B C ^ { 2 } - 2 A B \cdot B C \cos \theta = A C ^ { 2 } } \\ { A B ^ { 2 } + A ( B C ) ^ { 2 } - 2 A B \cdot B C \cos ( \pi - \theta ) = B B ^ { 2 } } \\ { 2 ( A B ^ { 2 } + B C ^ { 2 } ) : A _ { c } ^ { 2 } + B D ^ { 2 } } \right.
+\left. { y ^ { 2 } - a y + \frac { 1 } { 4 } a ^ { 2 } = 2 b x } \\ { 2 y \cdot \frac { d y } { d x } - a \frac { d y } { d x } + 0 = 2 b } \\ { \frac { d y } { d x } = \frac { 2 b } { 2 y - a } = \frac { b } { y - \frac { 1 } { 2 } a } } \right.
+
 
 
 
@@ -17,3 +18,4 @@ arr[-1]=arr[-1][:-7]
 for i in arr:
     i='$'+i+'$'
     print(i)
+    print("\n")
