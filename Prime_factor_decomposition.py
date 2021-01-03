@@ -1,5 +1,3 @@
-import math
-
 while True:
     num=int(input())
     list = [2]
@@ -20,4 +18,4 @@ while True:
                 temp=temp/j
                 break
     print(ans)
-
+#不论质数还是合数
