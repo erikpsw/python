@@ -19,3 +19,4 @@ while True:
                 break
     print(ans)
 #不论质数还是合数
+
